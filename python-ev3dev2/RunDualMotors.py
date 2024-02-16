@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ## Imports all Objects and Methods from the motor module
-from ev3dev2.motor import *
+from ev3dev2.motor import MoveTank, OUTPUT_A, OUTPUT_B, SpeedPercent
 
 ## Sets mt Equal to the MoveTank of two motors allowing
 ## them to run concurrently
